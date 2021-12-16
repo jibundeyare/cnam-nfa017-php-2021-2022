@@ -1,5 +1,6 @@
 <?php
 
+// inclusion du mécanisme d'autoloading de php
 require __DIR__.'/vendor/autoload.php';
 
 // var_dump() sert à inspecter une valeur

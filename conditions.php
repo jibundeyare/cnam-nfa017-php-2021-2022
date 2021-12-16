@@ -3,6 +3,8 @@
 // inclusion du mécanisme d'autoloading de php
 require __DIR__.'/vendor/autoload.php';
 
+// affectation d'un nombre entier aléatoire, compris entre 0 et 1 inclus
+// ce nombre entier est converti en booléen
 $isWaterOff = (bool) random_int(0, 1);
 $isGasOff = (bool) random_int(0, 1);
 
