@@ -77,6 +77,7 @@ $bigList = array_merge($fruits, $vegetables);
 
 dump($bigList);
 
+// la fonction in_array() permet de vérifier si un élément est présent dans un tableau
 if (!in_array('ananas', $bigList)) {
     echo "Il n'y a pas d'ananas dans la liste<br>\n";
 }
