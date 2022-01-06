@@ -40,3 +40,11 @@ $referundum = null;
 
 echo $referundum;
 echo '<br>';
+
+// déréférencer (supprimer) une variable
+unset($referundum);
+
+// provoque l'erreur Warning: Undefined variable $referundum
+// car la variable a été déréférencée
+// echo $referundum;
+// echo '<br>';
