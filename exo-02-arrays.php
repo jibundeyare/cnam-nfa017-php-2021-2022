@@ -27,12 +27,14 @@ Comparez les valeurs numériques des cartes et affichez quelle carte a une valeu
 Attention, par convention la carte "as" (valeur 1) est la plus élevée.
 */
 
-// bonus
-// Si vous voulez afficher correctement le nom des cartes, vous pouvez utiliser la fonction preg_replace().
-// Exemple qui remplace 1 par as
-// 1 carreau sera remplacé par "as carreau"
-// mais 11 carreau ne sera pas remplacé
-// et 9 treffle ne sera pas remplacé non plus
+/*
+Bonus
+Si vous voulez afficher correctement le nom des cartes, vous pouvez utiliser la fonction preg_replace().
+Exemple qui remplace 1 par as
+1 carreau sera remplacé par "as carreau"
+mais 11 carreau ne sera pas remplacé
+et 9 treffle ne sera pas remplacé non plus
+*/
 $nomCarte = preg_replace('/^1 /', 'as', '1 carreau');
 $nomCarte = preg_replace('/^1 /', 'as', '11 carreau');
 $nomCarte = preg_replace('/^1 /', 'as', '9 treffle');
