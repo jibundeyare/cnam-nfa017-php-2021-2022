@@ -7,10 +7,10 @@ Exemple de nom de cartes : '1 pique', '3 carreau', '11 treffle', etc.
 
 Rappel des valeurs de certaines cartes :
 
-- As : 1
-- Valet : 11
-- Dame : 12
-- Roi : 13
+- as : 1
+- valet : 11
+- dame : 12
+- roi : 13
 
 Stockez la taille du tableau dans une variable.
 
@@ -19,8 +19,8 @@ Stockez ces nombres dans un tableau.
 
 À l'aide de ces nombres, retirer deux cartes de la main.
 
-Affichez les nombre tirés au hasard et le nom des cartes qui ont été retirées.
+Affichez les nombres tirés au hasard et le nom des cartes qui ont été retirées.
 
-Comparez les valeurs numériques des cartes et affichez quelle carte a une valeur supérieur.
-Par convention, la carte As (valeur 1) est la plus élevée.
+Comparez les valeurs numériques des cartes et affichez quelle carte a une valeur supérieur ou s'il y a égalité.
+Attention, par convention la carte "as" (valeur 1) est la plus élevée.
 */
