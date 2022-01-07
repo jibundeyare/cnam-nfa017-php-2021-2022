@@ -17,6 +17,8 @@ Stockez la taille du tableau dans une variable.
 Tirez deux nombres au hasard, compris entre 1 et la taille du tableau inclus, en utilisant la fonction random_int().
 Stockez ces nombres dans un tableau.
 
+Si le même nombre a été tiré deux fois, affichez un message qui dit que le même nombre a été tiré, puis arrêtez le programme avec la fonction exit().
+
 À l'aide de ces nombres, retirer deux cartes de la main.
 
 Affichez les nombres tirés au hasard et le nom des cartes qui ont été retirées.
