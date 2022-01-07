@@ -21,6 +21,6 @@ Stockez ces nombres dans un tableau.
 
 Affichez les nombre tirés au hasard et le nom des cartes qui ont été retirées.
 
-Comparez les valeurs des cartes et affichez quelle carte a une valeur supérieur.
+Comparez les valeurs numériques des cartes et affichez quelle carte a une valeur supérieur.
 Par convention, la carte As (valeur 1) est la plus élevée.
 */
