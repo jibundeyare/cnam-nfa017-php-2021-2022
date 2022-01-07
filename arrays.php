@@ -85,3 +85,25 @@ if (!in_array('ananas', $bigList)) {
 if (in_array('carotte', $bigList)) {
     echo "Il y a des carottes dans la liste<br>\n";
 }
+
+$data = [
+    'nom' => 'Lorem',
+    'prenom' => 'Toto',
+    'age' => 18,
+    'email' => 'toto.lorem@example.com',
+    'newsletter' => true,
+];
+
+dump($data);
+
+// accès en lecture
+echo "Email: {$data['email']}";
+
+// accès en écriture
+$data['age'] = 12;
+
+// ajout d'un couple clé valeur
+$data['spammer'] = true;
+
+// suppression d'un couple clé valeur
+unset($data['spammer']);
