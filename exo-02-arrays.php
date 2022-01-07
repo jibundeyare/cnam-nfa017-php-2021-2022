@@ -30,6 +30,7 @@ Attention, par convention la carte "as" (valeur 1) est la plus élevée.
 /*
 Bonus
 Si vous voulez afficher correctement le nom des cartes, vous pouvez utiliser la fonction preg_replace().
+
 Exemple qui remplace 1 par as
 1 carreau sera remplacé par "as carreau"
 mais 11 carreau ne sera pas remplacé
