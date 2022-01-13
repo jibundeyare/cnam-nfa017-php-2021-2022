@@ -91,3 +91,11 @@ switch (true) {
     default:
         echo "Vous n'êtes dans aucun groupe<br>\n";
 }
+
+// yoda conditions
+$value = 15;
+
+// cette façon de comparer les valeurs permet d'éviter l'erreur où on utilise l'opérateur = au lieu de ==
+if (15 == $value) {
+    echo "la valeur est égale à 15<br>\n";
+}
