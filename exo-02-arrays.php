@@ -17,9 +17,9 @@ Stockez la taille du tableau dans une variable en utilisant la fonction count().
 Tirez un nombre au hasard, compris entre 1 et la taille du tableau inclus, en utilisant la fonction random_int().
 Stockez ce nombre dans un tableau.
 
-À l'aide de ce nombres, retirer une carte de la main.
+À l'aide de ce nombres, retirez une carte de la main.
 
-Recommencez afin de retirer une deuxième carte au hasard.
+Recommencez le tirage d'un nombre afin de retirer une deuxième carte de la main.
 
 Affichez le nombres tirés au hasard et le nom des cartes qui ont été retirées.
 
