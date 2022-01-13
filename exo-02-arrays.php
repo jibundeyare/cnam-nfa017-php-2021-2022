@@ -36,6 +36,6 @@ Exemple qui remplace 1 par as
 mais 11 carreau ne sera pas remplacé
 et 9 treffle ne sera pas remplacé non plus
 */
-$nomCarte = preg_replace('/^1 /', 'as', '1 carreau');
-$nomCarte = preg_replace('/^1 /', 'as', '11 carreau');
-$nomCarte = preg_replace('/^1 /', 'as', '9 treffle');
+$cardName = preg_replace('/^1 /', 'as', '1 carreau');
+$cardName = preg_replace('/^1 /', 'as', '11 carreau');
+$cardName = preg_replace('/^1 /', 'as', '9 treffle');
