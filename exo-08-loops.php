@@ -1,10 +1,9 @@
 <?php
 
 /*
-Créez toutes les cartes de l'as au roi dans les quatre couleurs en utilisant deux boucles for imbriquées.
-Une carte est représentée par un tableau à clé alphanumérique.
+Créez toutes les cartes de l'as au roi dans les quatre couleurs en utilisant une boucle foreach qui parcours un tableau contenant les quatre couleurs et une boucle for qiu est imbriquée.
 
-Voici comment doit être représenté l'as de cœur :
+Une carte est représentée par un tableau à clé alphanumérique, comme ci-dessous avec l'as de cœur :
 [
     'value': 1,
     'color: 'cœur',
@@ -35,3 +34,5 @@ Le résultat final doit être un tableau contenant les éléments suivants :
 
 Ensuite, utilisez deux boucles foreach imbriquées pour afficher tous les éléments du tableau.
 */
+
+$colors = ['cœur', 'carreau', 'treffle', 'pique'];
