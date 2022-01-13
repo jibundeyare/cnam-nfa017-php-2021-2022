@@ -20,14 +20,25 @@ Le résultat final doit être un tableau contenant les éléments suivants :
         'value': 2,
         'color: 'cœur',
     ],
-    [
-        'value': 3,
-        'color: 'cœur',
-    ],
     ...
         [
         'value': 13,
         'color: 'cœur',
+    ],
+    ...
+    [
+        'value': 1,
+        'color: 'carreau',
+    ],
+    ...
+    [
+        'value': 1,
+        'color: 'treffle',
+    ],
+    ...
+    [
+        'value': 1,
+        'color: 'pique',
     ],
     ...
 ]
