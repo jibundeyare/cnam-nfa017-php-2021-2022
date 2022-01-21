@@ -4,6 +4,15 @@ require __DIR__.'/vendor/autoload.php';
 
 dump($_POST);
 
+$errors = [];
+
+if ($_POST) {
+    if (empty($_POST['email'])) {
+        // le champ email est vide
+        $errors['email'] = 'Vous devez renseigner ce champ';
+    }
+}
+
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,6 +26,11 @@ dump($_POST);
 
     <form action="" method="post">
         <div>
+            <div class="error">
+                <?php if (isset($errors['email'])): ?>
+                    <?= $errors['email'] ?>
+                <?php endif ?>
+            </div>
             <input type="email" name="email" placeholder="votre mail">
         </div>
         <div>
