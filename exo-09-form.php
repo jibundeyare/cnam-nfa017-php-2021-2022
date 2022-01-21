@@ -19,6 +19,10 @@ require __DIR__.'/vendor/autoload.php';
 <body>
     <h1>Exo</h1>
 
+    <div class="confirmation">
+        Votre compte a bien été enregistré.
+    </div>
+
     <form action="" method="post">
         <div>
             <div class="error">
@@ -39,8 +43,5 @@ require __DIR__.'/vendor/autoload.php';
             <button type="submit">Valider</button>
         </div>
     </form>
-
-    <div class="confirmation">
-    </div>
 </body>
 </html>
