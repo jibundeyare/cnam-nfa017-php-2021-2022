@@ -3,7 +3,12 @@
 /*
 Vérifiez que tous les champs ont bien été remplis.
 S'il y a des erreurs, affichez un message d'erreur dans la div au dessus du champ correspondant.
-S'il n'y a aucune erreur, affichez un message de confirmation dans la dernière div, prévue à cet effet.
+
+Un message s'affiche en permanence.
+Vous devez le masquez s'il n'est pas pertinent :
+
+- s'il y a des erreurs, il doit être masqué
+- si l'utilisateur n'a envoyé aucune donné, il doit être masqué
 */
 
 require __DIR__.'/vendor/autoload.php';
