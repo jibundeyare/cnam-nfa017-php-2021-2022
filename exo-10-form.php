@@ -2,8 +2,8 @@
 
 /*
 Vérifiez que tous les champs ont bien été remplis :
-    
-- les champs alias, email et password doivent être non vides (le champ comment est optionnel)
+
+- les champs alias, email et password doivent être non vides (le champ comments est optionnel)
 - le champ alias doit faire minimum 3 caractères et 16 maximum
 - le champ email doit être valide
 - le champ mot de passe doit :
