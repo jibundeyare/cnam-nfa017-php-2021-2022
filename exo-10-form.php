@@ -69,6 +69,11 @@ require __DIR__.'/vendor/autoload.php';
             <input type="password" name="password" placeholder="votre mot de passe">
         </div>
         <div>
+            <div class="error">
+            </div>
+            <textarea name="comment" placeholder="vos commentaires"></textarea>
+        </div>
+        <div>
             <button type="submit">Valider</button>
         </div>
     </form>
