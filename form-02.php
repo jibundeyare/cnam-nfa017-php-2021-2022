@@ -2,7 +2,7 @@
 
 require __DIR__.'/vendor/autoload.php';
 
-dump($_POST);
+// dump($_POST);
 
 $errors = [];
 

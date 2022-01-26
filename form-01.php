@@ -2,10 +2,12 @@
 
 require __DIR__.'/vendor/autoload.php';
 
+// dump($_POST);
+
 if ($_POST) {
-    if (!empty($_POST['email'])) {
-        $email = $_POST['email'];
+    if (empty($_POST['email'])) {
+        echo "Vous devez renseigner le champ email<br>\n";
     } else {
-        echo "vous devez remplir le champ mail<br>\n";
+        $email = $_POST['email'];
     }
 }

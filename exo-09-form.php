@@ -1,11 +1,11 @@
 <?php
 
 /*
-Vérifiez que tous les champs ont bien été remplis.
+Vérifiez que tous les champs ont bien été remplis, c-à-d que les champs sont non vides.
 S'il y a des erreurs, affichez un message d'erreur dans la div au dessus du champ correspondant.
 
 Pour le moment le message de confirmation s'affiche en permanence.
-Vous devez le masquez s'il n'est pas pertinent :
+Vous devez le masquer s'il n'est pas pertinent :
 
 - s'il y a des erreurs, il doit être masqué
 - si l'utilisateur n'a envoyé aucune donné, il doit être masqué
@@ -25,7 +25,7 @@ require __DIR__.'/vendor/autoload.php';
     <h1>Exo</h1>
 
     <div class="confirmation">
-        Votre compte a bien été enregistré.
+        <p>Votre compte a bien été enregistré.<p>
     </div>
 
     <form action="" method="post">
