@@ -22,10 +22,10 @@ Astuces :
 
 - la fonction strlen() permet de connaître la longueur d'une chaîne de caractères
 - la fonction str_contains() permet de vérifie la présence d'une chaîne de caractères dans une autre chaîne de caractères
-- l'appel de fonction preg_match("/[a-z]/i", $text) permet de vérifier la présence de lettres minuscules
-- l'appel de fonction preg_match("/[A-Z]/i", $text) permet de vérifier la présence de lettres majuscules
-- l'appel de fonction preg_match("/[0-9]/i", $text) permet de vérifier la présence de chiffres
-- l'appel de fonction preg_match("/[^a-zA-Z0-9]/i", $text) permet de vérifier la présence de caractère qui ne sont ni une lettre ni un chiffre
+- l'appel de fonction preg_match("/[a-z]/i", $password) permet de vérifier la présence de lettres minuscules
+- l'appel de fonction preg_match("/[A-Z]/i", $password) permet de vérifier la présence de lettres majuscules
+- l'appel de fonction preg_match("/[0-9]/i", $password) permet de vérifier la présence de chiffres
+- l'appel de fonction preg_match("/[^a-zA-Z0-9]/i", $password) permet de vérifier la présence de caractère qui ne sont ni une lettre ni un chiffre
 - l'appel de fonction filter_var($email, FILTER_VALIDATE_EMAIL) permet de valider un email
 
 Pour le moment le message de confirmation s'affiche en permanence.
