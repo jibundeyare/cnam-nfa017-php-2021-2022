@@ -3,7 +3,7 @@
 /*
 Vérifiez que tous les champs ont bien été remplis :
     
-- les champs doivent être non vides
+- les champs alias, email et password doivent être non vides (le champ comment est optionnel)
 - le champ alias doit faire minimum 3 caractères et 16 maximum
 - le champ email doit être valide
 - le champ mot de passe doit :
@@ -12,7 +12,7 @@ Vérifiez que tous les champs ont bien été remplis :
     - contenir au moins une lettre majuscule
     - contenir au moins un chiffre
     - contenir au moins caractère qui n'est ni une lettre ni un chiffre
-- le champ commentaires doit :
+- le champ comments doit :
     - faire 1000 caractères maximum
     - ne pas contenir de caractères interdits en HTML, c-à-d pas de < > & et "
 
@@ -71,7 +71,7 @@ require __DIR__.'/vendor/autoload.php';
         <div>
             <div class="error">
             </div>
-            <textarea name="comment" placeholder="vos commentaires"></textarea>
+            <textarea name="comments" placeholder="vos commentaires"></textarea>
         </div>
         <div>
             <button type="submit">Valider</button>
