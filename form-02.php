@@ -7,6 +7,7 @@ require __DIR__.'/vendor/autoload.php';
 $errors = [];
 
 if ($_POST) {
+    // l'utilisateur a envoyé des données
     if (empty($_POST['email'])) {
         // le champ email est vide
         $errors['email'] = 'Vous devez renseigner ce champ';

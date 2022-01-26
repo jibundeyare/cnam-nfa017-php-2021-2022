@@ -1,7 +1,8 @@
 <?php
 
 /*
-Vérifiez que tous les champs ont bien été remplis, c-à-d que les champs sont non vides.
+Vérifiez que tous les champs ont bien été remplis : les champs doivent être non vides.
+
 S'il y a des erreurs, affichez un message d'erreur dans la div au dessus du champ correspondant.
 
 Pour le moment le message de confirmation s'affiche en permanence.
