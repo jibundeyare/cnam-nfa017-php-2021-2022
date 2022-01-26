@@ -32,7 +32,7 @@ if ($_POST) {
                     <?= $errors['email'] ?>
                 <?php endif ?>
             </div>
-            <input type="email" name="email" placeholder="votre mail">
+            <input type="email" name="email" placeholder="votre mail" value="<?= htmlentities($_POST['email'] ?? '') ?>">
         </div>
         <div>
             <button type="submit">Valider</button>
